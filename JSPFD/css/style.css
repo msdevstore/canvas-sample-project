@@ -1,0 +1,260 @@
+
+@font-face 
+{
+  font-family: "Segment7";
+  src: url(../fonts/Segment7Standard.otf) format('opentype');
+}
+
+.background
+{
+	background-image: url('../img/mcp_back.png');
+    background-color: #FFF;
+	width: 1200px;
+	height: 195px;
+	background-size: 1200px 195px;
+	margin: auto;
+	position: relative;
+}
+
+.guage
+{
+	position: absolute;
+	font-family: "Segment7";
+	font-size: 25px;
+	color: white;
+	float: left;
+	text-align: right;
+	width: 100px;
+}
+
+#diseng_switch
+{
+	position: absolute;
+	background-image: url('../img/diseng_bar.png');
+	width: 140px;
+	height: 39px;
+	background-size: 140px 39px;	
+	position: absolute;
+	left: 902px;
+	top: 150px;
+}
+#diseng_switch.on
+{
+	top: 160px;
+}
+
+#course_L
+{
+	left: 5px; top: 35px;
+}
+
+#course_R
+{
+	left: 1045px; top: 34px;
+}
+
+#ias_mach
+{
+	left: 240px; top: 34px;
+}
+
+#heading
+{
+	left: 411px; top: 34px;
+}
+
+#altitude
+{
+	left: 616px; top: 34px;
+}
+
+#vert_speed
+{
+	left: 764px; top: 34px;
+}
+
+.switch
+{
+	background-image: url('../img/switch.png');
+	width: 50px;
+	height: 100px;
+	background-size: 50px 100px;	
+	position: absolute;
+	transform: rotate(180deg);
+}
+
+.switch.on
+{
+	transform: rotate(0deg);
+}
+
+.small
+{
+	background-image: url('../img/switch.png');
+	width: 25px;
+	height: 50px;
+	background-size: 25px 50px;	
+	position: absolute;
+}
+
+#at_arm
+{
+	left: 168px;
+	top: 12px;
+}
+
+#fd_on_L
+{
+	left: 104px;
+	top: 131px;
+}
+
+#fd_on_R
+{
+	left: 1072px;
+	top: 131px;
+}
+
+.knob
+{
+	background-image: url('../img/indexed-knob.png');
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	position: absolute;
+}
+
+#course_knob_L
+{
+	left: 40px;
+	top: 81px;
+}
+
+#course_knob_R
+{
+	left: 1118px;
+	top: 80px;
+}
+
+#ias_mach_knob
+{
+	left: 297px;
+	top: 100px;
+}
+
+#heading_knob
+{
+	left: 465px;
+	top: 82px;
+}
+
+#altitude_knob
+{
+	left: 649px;
+	top: 79px;
+}
+
+.button
+{
+	background-image: url('../img/button-off.png');
+	width: 40px;
+	height: 30px;
+	background-size: 40px 30px;
+	position: absolute;
+}
+
+.button.on
+{
+	background-image: url('../img/button-on.png');
+}
+
+#n1_eng
+{
+	left: 146px;
+	top: 149px;
+}
+
+#speed_eng
+{
+	left: 215px; top: 149px;
+}
+
+#lvl_chg_eng
+{
+	left: 375px; top: 150px;
+}
+
+#v_nav_eng
+{
+	left: 379px; top: 30px;
+}
+
+#hdg_sel_eng
+{
+	left: 465px; top: 149px;
+}
+
+#l_nav_eng
+{
+	left: 549px; top: 29px;
+}
+
+#vor_loc_eng
+{
+	left: 549px; top: 90px;
+}
+
+#app_eng
+{
+	left: 549px; top: 150px;
+}
+
+#alt_eng
+{
+	left: 649px; top: 150px;
+}
+
+#vs_eng
+{
+	left: 726px; top: 150px;
+}
+
+#cmd_a_eng
+{
+	left: 899px; top: 37px;
+}
+
+#cmd_b_eng
+{
+	left: 1002px; top: 37px;
+}
+
+#cws_a_eng
+{
+	left: 899px; top: 89px;
+}
+
+#cws_b_eng
+{
+	left: 1002px; top: 89px;
+}
+
+.wheel
+{
+	background-image: url('../img/scroll-wheel-a.png');
+	width: 28px;
+	height: 83px;
+	background-size: 28px 83px;
+	position: absolute;
+}
+
+.turnt
+{
+	background-image: url('../img/scroll-wheel-b.png');
+}
+
+#vs_wheel
+{
+	left: 814px;
+	top: 90px;
+}

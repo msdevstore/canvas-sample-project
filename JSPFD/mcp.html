@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body style='background-color: white; text-align: center'>
+  <div class='background'>
+    <div class='guage' id='course_L'> 000 </div>
+    <div class='guage' id='ias_mach'> 350 </div>
+    <div class='guage' id='heading'> 000 </div>
+    <div class='guage' id='altitude'> 0 </div>
+    <div class='guage' id='vert_speed'> 1000 </div>
+    <div class='guage' id='course_R'> 000 </div>
+
+    <div class='switch' id='at_arm'> </div>
+
+    <div class='switch small' id='fd_on_L'></div>
+    <div class='switch small' id='fd_on_R'></div>
+
+    <div class='knob' id='course_knob_L'> </div>
+    <div class='knob' id='course_knob_R'> </div>
+    <div class='knob' id='ias_mach_knob'> </div>
+    <div class='knob' id='heading_knob'> </div>
+    <div class='knob' id='altitude_knob'> </div>
+
+    <a href='#' class='button' id='n1_eng'></a>
+    <a href='#' class='button' id='speed_eng'></a>
+    <a href='#' class='button' id='lvl_chg_eng'></a>
+    <a href='#' class='button' id='v_nav_eng'></a>
+    <a href='#' class='button' id='hdg_sel_eng'></a>
+    <a href='#' class='button' id='alt_eng'></a>
+    <a href='#' class='button' id='vs_eng'></a>
+    <a href='#' class='button' id='l_nav_eng'></a>
+    <a href='#' class='button' id='vor_loc_eng'></a>
+    <a href='#' class='button' id='app_eng'></a>
+    <a href='#' class='button' id='cmd_a_eng'></a>
+    <a href='#' class='button' id='cmd_b_eng'></a>
+    <a href='#' class='button' id='cws_a_eng'></a>
+    <a href='#' class='button' id='cws_b_eng'></a>
+
+    <a class='wheel' id='vs_wheel'></a>
+
+    <a href='#' class='on' id='diseng_switch'></a>
+
+  </div>
+</body>
+</html>
+<!-- <script src="js/easeljs-0.8.2.min.js"></script> -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+
+<script src="js/mcp_panel.js"></script>
+<script src="js/panel_components.js"></script>
+<script src="js/mcp_sim.js"></script>
+
+<script type="text/javascript">
+
+  var sim = new MCPSim();
+
+</script>
